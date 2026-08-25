@@ -8,20 +8,7 @@ rgs = {
     location = "centralindia"
   }
 
-  rg3 = {
-    name     = "bhatt3_rg"
-    location = "centralindia"
-  }
-  rg4 = {
-    name     = "bhatt4_rg"
-    location = "centralindia"
-  }
-  rg5 = {
-    name     = "bhatt53_rg"
-    location = "centralindia"
-  }
-
-}
+ }
 
 
 
