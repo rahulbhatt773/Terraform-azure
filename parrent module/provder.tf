@@ -2,18 +2,12 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "4.81.0"
+      version = "=5.0.0"
     }
-  }
-  backend "azurerm" {
-    resource_group_name  = "rahul_rg"
-    storage_account_name = "rahulsto"
-    container_name       = "rahulblob"
-    key                  = "rahul.tfstate"
   }
 }
 
+# Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
-
 }
