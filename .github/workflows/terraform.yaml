@@ -85,7 +85,7 @@ jobs:
         env:
           INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
         run: |
-          infracost breakdown \
+          infracost breakdown \    
             --path . \
             --format table
 
