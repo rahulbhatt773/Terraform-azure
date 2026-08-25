@@ -17,7 +17,7 @@ rgs = {
     location = "centralindia"
   }
     rg5 = {
-    name     = "bhatt5_rg"
+    name     = "bhatt53_rg"
     location = "centralindia"
   }
  
