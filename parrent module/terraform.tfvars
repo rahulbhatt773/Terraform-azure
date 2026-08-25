@@ -12,15 +12,15 @@ rgs = {
     name     = "bhatt3_rg"
     location = "centralindia"
   }
-   rg4 = {
+  rg4 = {
     name     = "bhatt4_rg"
     location = "centralindia"
   }
-    rg5 = {
+  rg5 = {
     name     = "bhatt53_rg"
     location = "centralindia"
   }
- 
+
 }
 
 vnet = {
