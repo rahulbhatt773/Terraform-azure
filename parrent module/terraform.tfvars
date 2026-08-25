@@ -8,7 +8,7 @@ rgs = {
     location = "centralindia"
   }
 
- }
+}
 
 
 
