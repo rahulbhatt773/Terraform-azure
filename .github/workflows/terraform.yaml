@@ -82,13 +82,12 @@ jobs:
           api-key: ${{ secrets.INFRACOST_API_KEY }}
 
       - name: Run Infracost
+        env:
+          INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
         run: |
           infracost breakdown \
             --path . \
             --format table
-             env:
-    INFRACOST_API_KEY: ${{ secrets.INFRACOST_API_KEY }}
-
 
       - name: Azure Login
         run: |
